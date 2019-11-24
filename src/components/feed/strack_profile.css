@@ -1,0 +1,31 @@
+.profile-wrap {
+  margin: 10px 0;
+  cursor: pointer;
+}
+.avtar-wrap img {
+  width: 8%;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.avtar-wrap {
+  display: inline;
+}
+.profile-name {
+  margin-left: 20px;
+  display: inline-block;
+}
+.profile-name h3 {
+  display: inline-block;
+}
+.profile-name img {
+  width: 25px;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+.profile-wrap h4 {
+  display: inline-block;
+  margin-left: 20px;
+  color: #8f939c;
+  font-size: 12px;
+
+}

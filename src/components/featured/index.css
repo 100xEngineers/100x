@@ -1,0 +1,94 @@
+.featured-wrap {
+  width: 100%;
+  margin-top: 30px;
+}
+.featured-content {
+  margin: 0 5%;
+}
+.featured-science {
+  display: inline-block;
+  margin-right: 1%;
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url('../../media/featured-astro.jpg');
+  background-size: cover;
+  width: 20vw;
+  height: 25vw;
+  position: relative;
+  border-radius: 5%;
+}
+.featured-politics {
+  display: inline-block;
+  margin-right: 1%;
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url('../../media/featured-politics.jpg');
+  background-size: cover;
+  width: 20vw;
+  height: 25vw;
+  position: relative;
+  border-radius: 5%;
+}
+.featured-travel {
+  display: inline-block;
+  margin-right: 1%;
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url('../../media/featured-travel.jpg');
+  background-size: cover;
+  width: 20vw;
+  height: 25vw;
+  position: relative;
+  border-radius: 5%;
+}
+.featured-computer-science {
+  display: inline-block;
+  margin-right: 1%;
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url('../../media/featured-cs.jpg');
+  background-size: cover;
+  width: 20vw;
+  height: 25vw;
+  position: relative;
+  border-radius: 5%;
+}
+.featured-item-wrap {
+  cursor: pointer;
+}
+.featured-item-wrap h3 {
+  color: #fff;
+  margin: 10%;
+  height: 60%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.featured-auth-wrap {
+  position: absolute;
+  margin: 2% 5%;
+  bottom: 0;
+}
+.featured-auth-wrap .auth-icon {
+  display: inline-block;
+}
+.featured-auth-wrap .auth-icon img {
+  width: 30px;
+  vertical-align: middle;
+}
+.featured-auth-wrap .auth-name {
+  display: inline-block;
+  color: #fff;
+  margin-left: 8px;
+}
